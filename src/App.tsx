@@ -1,10 +1,12 @@
 import React from "react";
-import { Header } from "./components";
+import { Features, Header, Jumbotron } from "./components";
 
 function App() {
   return (
     <div>
       <Header />
+      <Jumbotron />
+      <Features />
     </div>
   );
 }
